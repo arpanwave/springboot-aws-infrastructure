@@ -17,8 +17,8 @@ resource "aws_s3_bucket" "terraform_state" {
   bucket = "springboot-aws-terraform-state-shop-bucket"
 
   tags = {
-      Name = Shop-Infrastructure-Bucket
-    }
+    Name = Shop-Infrastructure-Bucket
+  }
 }
 
 resource "aws_s3_bucket_versioning" "terraform_state" {
